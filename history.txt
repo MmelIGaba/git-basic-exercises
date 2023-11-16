@@ -1,0 +1,570 @@
+    1  /var/lib/bluetooth
+    2  bluez bluez-utils pulseaudio-bluetooth
+    3  sudo snap install whatsapp-for-linux
+    4  sudo apt update
+    5  sudo apt install snapd
+    6  sudo snap install hotspot-launcher --beta
+    7  sudo snap install nm-wifi-hotspot --edge
+    8  open edge
+    9  snap install --channel=20/stable network-manager
+   10  snap connect nm-wifi-hotspot:network-manager network-manager
+   11  sudo eopkg install nodejs
+   12  xbps-install -Sy nodejs
+   13  node
+   14  python3
+   15  $ wget -O ~/adobe.deb ftp://ftp.adobe.com/pub/adobe/reader/unix/9.x/9.5.5/enu/AdbeRdr9.5.5-1_i386linux_enu.deb
+   16  wget -O ~/adobe.deb ftp://ftp.adobe.com/pub/adobe/reader/unix/9.x/9.5.5/enu/AdbeRdr9.5.5-1_i386linux_enu.deb
+   17  sudo dpkg --add-architecture i386
+   18  sudo apt update
+   19  sudo apt install libxml2:i386 libcanberra-gtk-module:i386 gtk2-engines-murrine:i386 libatk-adaptor:i386
+   20  sudo dpkg -i ~/adobe.deb
+   21  sudo apt install gparted
+   22  gparted
+   23  gpart
+   24  gparted
+   25  exit
+   26  vulkaninfo
+   27  sudo apt install vulkan-tool
+   28  sudo apt install vulkan-tools
+   29  vulakinfo
+   30  vulkaninfo
+   31  sudo apt install mesa-vulkan-drivers mesa-vulkan-drivers:i386
+   32  python --version
+   33  python3
+   34  sudo apt update
+   35  sudo apt install software-properties-common
+   36  sudo add-apt-repository ppa:deadsnakes/ppa
+   37  sudo apt update
+   38  sudo apt install python3.8
+   39  apt-get install git
+   40  sudo apt-get install git-all
+   41  git 
+   42  git login
+   43  apt install git
+   44  exit
+   45  lsblk
+   46  clear
+   47  lsblk
+   48  sudo fdisk-l
+   49  lusb
+   50  usb-devices
+   51  usbview
+   52  sudo apt install usbwiew
+   53  sudo apt install usbview
+   54  usbview
+   55  dmesg | grep usb
+   56  df -Th | grep media
+   57  lsblk | grep sd
+   58  modprobe vboxdrv
+   59  sudo modprobe vboxdrv
+   60  sudo apt-get remove virtualbox-dkms
+   61  sudo apt-get remove --purge virtualbox-dkms
+   62  sudo apt-get install -y linux-headers-amd64 linux-image-amd64
+   63  sudo apt-get install -y virtualbox-dkms
+   64  lshw -C network
+   65  sudo lshw -C network
+   66  sudo lspci
+   67  lspci -v
+   68  lsusb
+   69  lshw -C network
+   70  rfkill list all
+   71  sudo ip link set wlo1 up
+   72  sudo iwconfig wlo1
+   73  sudo iwconfig wlp2s0b1
+   74  exit
+   75  git
+   76  github
+   77  sudo apt install github
+   78  type -p curl >/dev/null || (sudo apt update && sudo apt install curl -y)
+   79  curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg && sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg && echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null && sudo apt update && sudo apt install gh -y
+   80  sudo apt update
+   81  sudo apt install gh
+   82  github
+   83  gh
+   84  apt install git
+   85  gh auth login
+   86  git clone https://github.com/Umuzi-org/Mmela-Dyantyi-219-level-1-programming-katas-javascript.git
+   87  git init
+   88  git add task1.js
+   89  git clone https://github.com/Umuzi-org/Mmela-Dyantyi-219-level-1-programming-katas-javascript.git
+   90  git clone https://github.com/Umuzi-org/Mmela-Dyantyi-219-level-1-programming-katas-javascript
+   91  gh auth login
+   92  git clone https://github.com/Umuzi-org/Mmela-Dyantyi-219-level-1-programming-katas-javascript
+   93  cd
+   94  cd 
+   95  cd /home/mmeli/Mmela-Dyantyi-219-level-1-programming-katas-javascript
+   96  git branch
+   97  ls
+   98  git branch task1
+   99  gti branch
+  100  git branch
+  101  git checkout task1
+  102  git add task1.js
+  103  git status
+  104  git add task1.js
+  105  git status
+  106  git commit -m 'First task submission.'
+  107  git config --global user.email "mmela.dyantyi@umuzi.org"
+  108  git commit -m 'First task submission.'
+  109  git push --set-upstream origin task1
+  110  git add task2.js
+  111  git status
+  112  git restore --staged task2.js
+  113  git status
+  114  ks
+  115  ls
+  116  git branch task2
+  117  git branch
+  118  git checkout task2
+  119  git add task2.js
+  120  git status
+  121  git commit -m 'Task 2 submission'
+  122  git push
+  123  git push --set-upstream origin task2
+  124  git push
+  125  git branch task3
+  126  git branch
+  127  git checkout task3
+  128  git add task3.js
+  129  git status
+  130  git commit -m 'Task 3 submission requesting review'
+  131  git push
+  132  git push --set-upstream origin task3
+  133  git push
+  134  git branch task4
+  135  git branch
+  136  git checkout task4
+  137  git add task4.js
+  138  git commit -m 'task 4 submission, awaiting review'
+  139  git push --set-upstream origin task4
+  140  git push
+  141  git branch task5
+  142  git checkout task5
+  143  git add task5.js
+  144  git commit -m 'Task 5 submission'
+  145  git push --set-upstream origin task5
+  146  git push
+  147  git branch task6
+  148  git checkout task6
+  149  git add task6.js
+  150  git commit -m 'Task 6 submission'
+  151  git push --set-upstream origin task6
+  152  git push
+  153  git branch task7
+  154  git checkout task7
+  155  git add task7.js
+  156  git commit -m 'Done with task 7, submission'
+  157  git push --set-upstream origin task7
+  158  git psuh
+  159  git push
+  160  exit
+  161  git clone https://github.com/Umuzi-org/Mmela-Dyantyi-223-person-javascript
+  162  git init
+  163  git branch
+  164  git status
+  165  git branch person
+  166  git branch -m master main
+  167  git push -u origin main
+  168  git branch -u origin/main main
+  169  git branch
+  170  git branch person
+  171  git status
+  172  cd /home/mmeli/Mmela-Dyantyi-223-person-javascript
+  173  git status
+  174  git branch person
+  175  git checkout person
+  176  git add person.js
+  177  git commit -m 'person project review and pull request submission'
+  178  git push
+  179  git push --set-upstream origin person
+  180  git push
+  181  exit
+  182  git clone https://github.com/Umuzi-org/Mmela-Dyantyi-219-level-1-programming-katas-javascript
+  183  git init
+  184  cd /home/mmeli/Mmela-Dyantyi-219-level-1-programming-katas-javascript
+  185  git status
+  186  git branch task1
+  187  git checkout task1
+  188  git add task1.js
+  189  git commit -m 'open pull request'
+  190  git push
+  191  git push --set-upstream origin task1
+  192  git push
+  193  git status
+  194  ls
+  195  git branch task2
+  196  git checkout branch2
+  197  git checkout task2
+  198  git add task2.js
+  199  git commit -m 'open pull request task2'
+  200  git push
+  201  git push --set-upstream origin task2
+  202  git push
+  203  git branch task3
+  204  git checkout task3
+  205  git push task3.js
+  206  git add task3.js
+  207  git commit -m 'Open pull request task3'
+  208  git push
+  209  git push --set-upstream origin task3
+  210  git push
+  211  git brach task4
+  212  git branch task4
+  213  git checkout task4
+  214  git add task4.js
+  215  git commit -m 'pull request task 4'
+  216  git push
+  217  git branch task5
+  218  git checkout task5
+  219  git add task5.js
+  220  git commit -m 'Open pull request task 5'
+  221  git push
+  222  git psuh
+  223  git push
+  224  git branch task6
+  225  git checkout task6
+  226  git add task6.js
+  227  git commit -m 'Task 6 pull request'
+  228  git push
+  229  git branch task7
+  230  git checkout task7
+  231  git add task7.js
+  232  git commigt -m 'task 7 pull request'
+  233  git commit -m 'task 7 pull request'
+  234  git pudh
+  235  git push
+  236  exit
+  237  cd /home/mmeli/Mmela-Dyantyi-219-level-1-programming-katas-javascript
+  238  ls
+  239  git branch
+  240  git checkout task1
+  241  git add task1.js
+  242  git commit -m 'Code format changes, using prettier'
+  243  git status
+  244  git push
+  245  checkout main
+  246  git checkout main
+  247  pull
+  248  git pull
+  249  checkout -b task/1
+  250  git checkout -b task/1
+  251  git add task1.js
+  252  git commit -m 'Code format correction using the prettier extension.'
+  253  git push
+  254  git checkout main
+  255  git fetch origin
+  256  git reset --hard origin/main
+  257  git clean -xdf
+  258  ls
+  259  git bracnh
+  260  git branch
+  261  git branch -d task/1
+  262  git push origin :task/1
+  263  git checkout task/1
+  264  git branch
+  265  git branch task/1
+  266  git branch
+  267  git checkout task/1
+  268  git add task1.js
+  269  git commit -m 'The file is formatted with the prettier code extension as requested.'
+  270  git push
+  271  git push --set-upstream origin task/1
+  272  git pull task/1
+  273  git pull
+  274  git branch --set-upstream-to=origin/task/1 task/1
+  275  git push
+  276  git branch --set-upstream-to=task/1 task/1
+  277  git push
+  278  git pull task1/1
+  279  git pull task1.js
+  280  git branch --set-upstream-to=origin/task/1 task/1
+  281  git push
+  282  git push origin :task/1
+  283  git push
+  284  git status
+  285  ls
+  286  bw
+  287  git branch
+  288  git add task1.js
+  289  git commit -m 'Function uses console.log() and not return as pointed out by reviewer 'Ranger03' and code is formatted with the prettier extension.'
+  290  git push
+  291  git status
+  292  cd /home/mmeli/Mmela-Dyantyi-223-person-javascript
+  293  git branch
+  294  git checkout person
+  295  git add person.js
+  296  git commit -m 'extra comma between "agile" and "and"' fixed.'
+  297  exit
+  298  .exit
+  299  .exit()
+  300  git checkout person
+  301  cd /home/mmeli/Mmela-Dyantyi-223-person-javascript
+  302  git branch
+  303  git add person.js
+  304  git commit -m 'extra comma fixed'
+  305  git push
+  306  git branch
+  307  ls
+  308  git status
+  309  git checkout main
+  310  ls
+  311  git status
+  312  git branch
+  313  git branch -d task1
+  314  git branch --delete task1
+  315  git branch -d task2
+  316  git branch --delete task2
+  317  git branch
+  318  git checkout main
+  319  git branch task/2
+  320  git branch
+  321  git checkout task/2
+  322  exit
+  323  git branch
+  324  cd /home/mmeli/Mmela-Dyantyi-223-person-javascript
+  325  ls
+  326  cd /home/mmeli/Mmela-Dyantyi-219-level-1-programming-katas-javascript
+  327  ls
+  328  git clone https://github.com/Umuzi-org/Mmela-Dyantyi-219-level-1-programming-katas-javascript.git
+  329  git checkout task/2
+  330  rm -r task3.js task4.js task5.js task6.js task7.js
+  331  git merge main
+  332  git -u push origin task/2
+  333  git push -u origin task/2
+  334  git checkout task/2
+  335  rm -r D task3.js
+  336  git add task2.js
+  337  git auth
+  338  gh auth login
+  339  git checkout main
+  340  ls
+  341  git clone https://github.com/Umuzi-org/Mmela-Dyantyi-219-level-1-programming-katas-javascript
+  342  git init
+  343  ls
+  344  git branch
+  345  git branch task/3
+  346  git checkout task/3
+  347  git branch
+  348  ls
+  349  git add task3.js
+  350  ls
+  351  git commit -m 'Task 3 completed, pull request open'
+  352  git push
+  353  git push --set-upstream origin task/3
+  354  git push
+  355  ls
+  356  git checkout main
+  357  git checkout task/3
+  358  nano task3.js
+  359  git add task3.js
+  360  git commit -m 'removed function call'
+  361  git push
+  362  git status
+  363  git checkout main
+  364  ls
+  365  git brach
+  366  git branch
+  367  git branch task/4
+  368  git checkout task/4
+  369  ls
+  370  git status
+  371  git add task4.js
+  372  git commit -m 'Task 4 pull reequest'
+  373  git push --set-upstream task/4
+  374  git push
+  375  git push --set-upstream origin task/4
+  376  git push
+  377  ls
+  378  git checkout main
+  379  ls
+  380  git branch
+  381  git checkout task/4
+  382  ls
+  383  gits status
+  384  git status
+  385  git checkout main
+  386  git branch task/5
+  387  git branch
+  388  git checkout task/4
+  389  git checkout task/5
+  390  ls
+  391  git branch
+  392  git add task5.js
+  393  nano task5.js
+  394  cat task5.js
+  395  git commit -m 'Task 5 pull request'
+  396  git push --set-upstream origin task/5
+  397  git push
+  398  cat task5.js
+  399  git add task5.js
+  400  git commit -m 'removed function call'
+  401  git push
+  402  git status
+  403  git checkout main
+  404  git branch task/6
+  405  git branch
+  406  git checkout task/6
+  407  git branch
+  408  git add task6.js
+  409  git commit -m 'taks 6 pull request'
+  410  git push --set-upstream origin task/6
+  411  git push
+  412  nano task6.js
+  413  git add task6.js
+  414  git commit -m 'remove functin calls'
+  415  git push
+  416  git status
+  417  ls
+  418  git checkout main
+  419  ls
+  420  git branch
+  421  git branch task/7
+  422  get checkout task/7
+  423  git checkout task/7
+  424  git add task7.js
+  425  git commit -m 'Task 7 pull request'
+  426  git push --set -upstream origin task/7
+  427  git push --set-upstream origin task/7
+  428  git push
+  429  ls
+  430  git checkout main
+  431  ls
+  432  wd
+  433  md
+  434  exit
+  435  git add person.js
+  436  cat person.js
+  437  git commit -m 'removed everything outside person class as requested by reviewer, changed hello function to directly handle the punctuation and grammer of interests.'
+  438  git push
+  439  git checkout alpha-0.3.0
+  440  git checkout alpha-0.3.0ls
+  441  ls
+  442  git branch
+  443  git branch person
+  444  git status
+  445  git branch
+  446  git branch person
+  447  git checkout person
+  448  git branch
+  449  git add person.js
+  450  git commit -m 'Removed everything outside person class as reviewer requested, hello function updated to handle punctuation of interests.'
+  451  git push
+  452  git push --set-upstream origin person
+  453  git push
+  454  git pull origin main
+  455  git branch
+  456  git add person.js
+  457  git commit -m 'removed comment'
+  458  git push
+  459  git status
+  460  exit
+  461  ls
+  462  git branch
+  463  git branch task/2
+  464  git add task2.js
+  465  git commit -m 'resolving conflict in branch'
+  466  git push
+  467  git branch
+  468  git checkout task/2
+  469  git add task2.js
+  470  git commit -m 'Correcting conflict in branch'
+  471  git branch
+  472  git push
+  473  exit
+  474  git pull origin main
+  475  git clone https://github.com/Umuzi-org/Mmela-Dyantyi-219-level-1-programming-katas-javascript.git
+  476  git pull origin main
+  477  exit
+  478  git pull origin main
+  479  git checkout task/2
+  480  git merge main
+  481  git status
+  482  cat task2.js
+  483  git add task2.js
+  484  git commit -m 'commit'
+  485  git branch
+  486  git push
+  487  git status
+  488  clear
+  489  exit
+  490  git clone https://github.com/Umuzi-org/Mmela-Dyantyi-606-tilde-project-tutorial-how-repo-projects-work-
+  491  exit
+  492  git branch
+  493  git branch tilde/tut
+  494  git checkout tilde/tut
+  495  git add important.md
+  496  git status
+  497  git retore README.md
+  498  git restore README.md
+  499  git commit -m 'Updated list of assignees to pr's.
+  500  git push
+  501  clear
+  502  exit
+  503  mkdir
+  504  mkdir git-basic-exercises
+  505  exit
+  506  ce..
+  507  cd..
+  508  cd.
+  509  cd..
+  510  cd /home/mmeli/git-basic-exercises
+  511  cd..
+  512  cd ..
+  513  cd /home/mmeli/git-basic-exercises
+  514  ls
+  515  ls -s
+  516  ls -a
+  517  git init
+  518  ls -a
+  519  git status
+  520  touch README.md
+  521  ls
+  522  ls -a
+  523  git status
+  524  git log
+  525  git add README.md
+  526  git log
+  527  git status
+  528  git rm --cached README.md
+  529  git status
+  530  git add README.md
+  531  git commit -m 'initial commit'
+  532  git log
+  533  q
+  534  exit
+  535  git log
+  536  nano README.md
+  537  cat README.md
+  538  git status
+  539  git add README.md
+  540  git commit -m 'second commit'
+  541  nano README.md
+  542  cat README.md
+  543  git add README.md
+  544  git commit -m 'third commit'
+  545  git log
+  546  git checkout f60e74a092db965fe732de9014d9a031d955d1f6
+  547  cat README.md
+  548  git checkout main
+  549  git checkout master
+  550  cat README.md
+  551  git branch
+  552  git branch milkshake-flavours
+  553  git branch
+  554  git checkout milkshake-flavours
+  555  git branch
+  556  nano milkshakes.md
+  557  git status
+  558  git add milkshakes.md
+  559  git commit -m 'added initial flavours'
+  560  git log
+  561  git checkour master
+  562  git checkout master
+  563  ls
+  564  git branch
+  565  git branch history
+  566  git branch
+  567  git checkout history
+  568  git log
+  569  git branch
+  570  history > history.txt
